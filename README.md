@@ -32,3 +32,9 @@
  *   - marginTopPercent
  */
 ```
+```java
+   //引入百分比布局库
+   //compile 'com.android.support:percent:24.2.1'
+   //compile 'com.android.support:percent:25.0.0'
+   compile 'com.android.support:percent:25.3.1'
+```
