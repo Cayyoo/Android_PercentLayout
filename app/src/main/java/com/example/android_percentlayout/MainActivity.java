@@ -15,11 +15,22 @@ import android.os.Bundle;
  *
  * 在.xml文件中的使用：
  * 由于百分比布局并不是内置在系统SDK当中，所以需要把完整的包路径写出来，
- *   android.support.percent.PercentRelativeLayout ,
- *   android.support.percent.PercentFrameLayout
+ *   <android.support.percent.PercentRelativeLayout /> ,
+ *   <android.support.percent.PercentFrameLayout />
  * 还必须定义一个app的命名空间，才能使用百分比布局的自定义属性。
  *   app:layout_widthPercent="50%"
  *   app:layout_heightPercent="50%"
+ *
+ *   支持的属性：
+ *   - heightPercent
+ *   - widthPercent
+ *   - marginBottomPercent
+ *   - marginEndPercent
+ *   - marginLeftPercent
+ *   - marginPercent
+ *   - marginRightPercent
+ *   - marginStartPercent
+ *   - marginTopPercent
  */
 public class MainActivity extends AppCompatActivity {
 
