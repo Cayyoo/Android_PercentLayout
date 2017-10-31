@@ -17,8 +17,8 @@
  *   <android.support.percent.PercentRelativeLayout /> ,
  *   <android.support.percent.PercentFrameLayout />
  * 还必须定义一个app的命名空间，才能使用百分比布局的自定义属性。
- *   app:layout_widthPercent="50%"
- *   app:layout_heightPercent="50%"
+ *   app:layout_widthPercent="50%sw"
+ *   app:layout_heightPercent="50%sh"
  *
  *   支持的属性：
  *   - heightPercent
@@ -30,6 +30,13 @@
  *   - marginRightPercent
  *   - marginStartPercent
  *   - marginTopPercent
+ *
+ * 总结：
+ * 1.属性就是在Android原有的属性后增加Percent，如android：layout_height —>android：layout_heightPercent 
+ * 2.百分号后面的单位，如10%w ：占手机屏幕宽度的十分之一, 
+ *     10%h：占手机屏幕高度的十分之一 , 
+ *     10% ：占手机屏幕宽/高度的十分之一, 
+ *     10%sw、10%sh 与10%w、10%h基本相同
  */
 ```
 ```java
