@@ -31,6 +31,13 @@ import android.os.Bundle;
  *   - marginRightPercent
  *   - marginStartPercent
  *   - marginTopPercent
+ *
+ * 总结：
+ * 1.属性就是在Android原有的属性后增加Percent，如android：layout_height —>android：layout_heightPercent 
+ * 2.百分号后面的单位，如10%w ：占手机屏幕宽度的十分之一, 
+ *     10%h：占手机屏幕高度的十分之一 , 
+ *     10% ：占手机屏幕宽/高度的十分之一, 
+ *     10%sw、10%sh 与10%w、10%h基本相同
  */
 public class MainActivity extends AppCompatActivity {
 
